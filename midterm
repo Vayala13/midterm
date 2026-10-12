@@ -1,0 +1,148 @@
+
+
+$(function() {
+    body {
+        background-color: #222;
+        font-family: Arial, sans-serif;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    const newDiv = document.createElement("div");
+
+ const planets = [
+    { "Jupiter": "The Legend of Zelda: Breath of the Wild" },
+
+    { "Mars": "God of War Ragnarök"},
+
+    { "Mercury": "Halo Infinite" },
+
+    {"Moon": "Minecraft"},
+
+    {"Neptune": "Super Mario Odyssey"}
+
+    { "Pluto": "The Legend of Zelda: Breath of the Wild" },
+    
+    { "Saturn": "God of War Ragnarök"},
+    
+    { "Mercury": "Halo Infinite" },
+    
+    {"Moon": "Minecraft"},
+    
+    {"Neptune": "Super Mario Odyssey"}
+    
+  ]
+
+  <div class="card" id="0">
+    <div classs="card-body">
+        <img src="./images/Sun.png" alt="Sun">
+        <p class="card-title">Sun</p>
+        </div>
+    </div>
+
+
+    function planets() {
+  planet.forEach( planet => {
+  const listItem = $("<li>");
+  listItem.html(`${planet.title}`);
+  planetList.append(listItem);
+  })
+   
+  
+
+
+
+    // https://science.nasa.gov/solar-system/planets/
+
+    //Write your code below
+    (function Planets( Planets in the Solar System by Vaqueros at){
+        console.log("DEBUG: ", movieOneStr);
+        movieOneStr.split("\n").forEach(Planets => {
+           document.querySelector("#fetch-planets-png").innerHTML += planet + "<br>";
+        });
+     })("This is a call to the IIFE function #3");
+
+    function planets(){
+        (async () => {
+    try {
+        const response = await fetch("data/missing.json");
+        if (!response.ok) {
+            // fetch did NOT reject on 404, so we throw ourselves
+            throw new Error(`HTTP error: ${response.status}`);
+        }
+        const data = await response.json();
+        console.log(data);
+    } catch (error) {
+        // lands here for BOTH: a real network failure OR the error we threw
+        document.querySelector("#error").textContent = error.message;
+    }
+})();
+       <section
+       
+        <a href="mailto:Viviana.ayala01@utrgv.edu">Viviana.ayala01@utrgv.edu</a>
+       </section>
+       
+       <footer>
+        <hr>
+        <p><a href="https://www.utrgv.edu" target="mailto:Viviana.ayala01@utrgv.edu">The University of Texas Rio Grande Valley</a></p>
+        <p>Powered by &copy; Vaqueros Dev</p>
+    </footer>
+        <div class="submit">
+          <div class="player-controls">
+            <button>↶</button>
+            <button class="footer-button">▶</button>
+            <button>↷</button>
+          </div>
+    
+
+        <div class="wrapper">
+        <h1 class="title">Planets</h1>
+        <div class="card-container">
+            <div class="card"> ... </div>
+            <div class="card"> ... </div>
+        </div>
+    </div>
+        
+    <ul>
+    <li><a href="https://github.com/Vayala13/LLM-COST-Autopilot"><u>LLM Cost AutoPilot</u></a>
+        <ul>
+            <li>Built an intelligent routing layer ...</li>
+            <li>Reduced LLM API costs by 30.6% ...</li>
+        </ul>
+    </li>
+</ul>
+        
+
+
+        const button = document.createElement("button");
+        button.id = "submit";
+        button.classList.add("button-id");
+        button.textContent = "Submit";
+        
+        button.addEventListener("click", () => {
+            alert("Redirecting user to the login page...");
+        });
+        
+        article.appendChild(button);
+
+        // Convert all HTML buttons into jQuery UI Button widgets
+    $('button').button();
+
+
+
+        
+    }
+
+    $("#jq-title").text("jQuery works!");                    
+$("#jq-box").html("<strong>Injected HTML</strong>");      
+$("#drag-me").draggable();   
+
+const buttonObj = document.querySelector("#submitBtn");
+buttonObj.addEventListener('click', () => {
+    console.log("Button was clicked");
+});
+
+});
